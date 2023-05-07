@@ -1,0 +1,28 @@
+Install the virtual environment module (virtualenv)
+
+python -m pip install --upgrade pip 
+python -m pip install virtualenv
+ 
+Create Virtualenv
+
+python -m virtualenv my_venv 
+Boom virtual environment created, named as my_venv!!
+
+Now bonus, how to activate and deactivate?
+
+For windows os
+
+.\my_venv\Scripts\activate 
+
+if it's not activated run this command using admin prompt:_
+1.Get-ExecutionPolicy
+2.set-executionpolicy remotesigned
+3.and press A
+and then use this command again .\my_venv\Scripts\activate 
+
+For Linux and Mac
+
+source my_venv/bin/activate 
+Deactivate
+
+deactivate 
