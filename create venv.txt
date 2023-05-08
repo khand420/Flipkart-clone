@@ -20,9 +20,16 @@ if it's not activated run this command using admin prompt:_
 3.and press A
 and then use this command again .\my_venv\Scripts\activate 
 
-For Linux and Mac
+******** 1st time Push project on github************
+https://medium.com/hackernoon/step-by-step-guide-to-push-your-first-project-on-github-fec1dce574f
 
-source my_venv/bin/activate 
-Deactivate
-
-deactivate 
+1. git --version
+2. git config --global user.name "Danish"
+3. git config --global user.email "khand7661@gmail.com"
+4. git init
+5. git add .
+6. git status
+7. git commit -m "First Commit"
+8. git branch -M main
+9. git remote add origin https://github.com/khand420/Flipkart-clone.git
+10. git push -u origin main
